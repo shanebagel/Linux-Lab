@@ -1,3 +1,7 @@
+# Configure with static IP 192.168.124.150
+# Configure with gateway 192.168.124.1
+# Configure with 50 GB storage for vSphere VM and additional VMs
+
 virt-install --virt-type=kvm --name=esxi \
 --ram 4096 --vcpus=4 \
 --virt-type=kvm --hvm \
